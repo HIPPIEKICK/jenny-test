@@ -1,9 +1,7 @@
-import express from "express";
-import cors from "cors";
-import mongoose from "mongoose";
-import booksData from "./data/books.json";
-
-
+const express = require("express");
+const cors = require("cors");
+const mongoose = require("mongoose");
+const booksData = require("./data/books.json");
 
 
 // import avocadoSalesData from "./data/avocado-sales.json";
